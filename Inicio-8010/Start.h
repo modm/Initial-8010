@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface Start : UIViewController
+//Labels
+@property (strong, nonatomic) IBOutlet UILabel *lblMsg;
 
+//Actions
+- (IBAction)btnChangeMsgPressed:(id)sender;
 
 @end
 
