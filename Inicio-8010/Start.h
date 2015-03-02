@@ -12,6 +12,8 @@
 //Labels
 @property (strong, nonatomic) IBOutlet UILabel *lblMsg;
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgUser;
+
 //Actions
 - (IBAction)btnChangeMsgPressed:(id)sender;
 
